@@ -51,7 +51,7 @@
 
 </p>
 
-## Skills
+## Skills 👨‍💻🐱‍🏍💻💪😎🦄📲🦄📱
 <p>
 
 <img src="https://img.shields.io/badge/RESTFUL%20API -★★★★★-brightgreen">
