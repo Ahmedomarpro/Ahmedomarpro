@@ -1,4 +1,4 @@
-##  Follow me on:
+##  Follow me on:  👍😍📲
 <p>
 
 <a href="https://www.linkedin.com/in/Ahmedomarpro">
@@ -35,7 +35,7 @@
 
 </p>
 
-## Programming language
+## Programming language  ❤❤💻👨‍💻👨‍💻
 <p>
   <img src="https://img.shields.io/badge/C -★★★★★-critical">
 
