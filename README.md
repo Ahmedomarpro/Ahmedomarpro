@@ -25,8 +25,6 @@
 <img src="https://img.shields.io/github/followers/Ahmedomarpro?style=social"  alt="Ahmedomarpro">
   </a>
 
- 
-
 
 <a href="https://dev.to/ahmedomarpro/">
     <img src="https://img.shields.io/badge/Dev.to-ahmedomarpro-blue" alt="Ahmedomarpro">
