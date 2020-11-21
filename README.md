@@ -86,11 +86,11 @@ and here
 <img src="https://img.shields.io/badge/Organization%20Skills-★★★★★-brightgreen">
 </p>
 
-<a>
-    <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=Ahmedomarpro&show_icons=true&locale=en&layout=compact" alt="Ahmedomarpro" /></p>
 
-</a>
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=Ahmedomarpro&show_icons=true&locale=en" alt="Ahmedomarpro" /></p>
+
+| <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=Ahmedomarpro&show_icons=true&locale=en&layout=compact" alt="Ahmedomarpro" /></p> | <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=Ahmedomarpro&show_icons=true&locale=en" alt="Ahmedomarpro" /></p> |
+| --- | --- |
+
 
 
 _You can find the list of open source projects I have been a part of_ Usability TestingUsability TestingUsability TestingUsability TestingUsability TestingUsability TestingUsability TestingUsability Testing 👇👇👇👇👇👇👇
