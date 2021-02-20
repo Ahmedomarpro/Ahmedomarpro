@@ -90,9 +90,10 @@ and here
  | --- | --- |
  --> 
 
+<hr>
 
 <p align="center">
-<img align="center" src="https://github-readme-stats.vercel.app/api?username=Ahmedomarpro&&show_icons=true&theme=radical" alt="Ahmed Omar ">
+<img align="center" src="https://github-readme-stats.vercel.app/api?username=Ahmedomarpro&&show_icons=true&theme=gotham" alt="Ahmed Omar ">
 </p>  
 
 <div align="center">
