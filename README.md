@@ -91,9 +91,10 @@ and here
  --> 
 
 <hr>
-
 <p align="center">
-<img align="center" src="https://github-readme-stats.vercel.app/api?username=Ahmedomarpro&&show_icons=true&theme=gotham" alt="Ahmed Omar ">
+<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=Ahmedomarpro&show_icons=true&gotham=en&layout=gotham&theme=gotham" alt="Ahmedomarpro" /></p>
+
+<img align="right " src="https://github-readme-stats.vercel.app/api?username=Ahmedomarpro&&show_icons=true&theme=gotham" alt="Ahmed Omar ">
 </p>  
 
 <div align="center">
