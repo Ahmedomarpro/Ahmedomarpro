@@ -91,6 +91,10 @@ and here
  --> 
 
 <hr>
+ 
+
+**NOTE**: *Top languages does not indicate my skill level or something like that, it's a github metric of which languages I have the most code on github.*
+
 <p align="center">
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=Ahmedomarpro&show_icons=true&gotham=en&layout=gotham&theme=gotham" alt="Ahmedomarpro" /></p>
 
