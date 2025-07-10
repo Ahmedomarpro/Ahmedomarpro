@@ -62,8 +62,8 @@
 <a href="https://postman.com" target="_blank" rel="noreferrer"> 
 <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40"/> 
 </a>
-<a href="https://www.adobe.com/products/xd.html" target="_blank" rel="noreferrer"> 
-<img src="https://cdn.worldvectorlogo.com/logos/adobe-xd.svg" alt="xd" width="40" height="40"/> 
+<a href="https://developer.android.com/compose" target="_blank" rel="noreferrer"> 
+<img src="https://miro.medium.com/v2/resize:fit:1400/1*-1elwQ9eKqBI-q6cGngDKg.png" alt="compose" width="40" height="40"/> 
 </a> 
 </p>
  
@@ -133,11 +133,13 @@ and here
 
 **NOTE**: *Top languages does not indicate my skill level or something like that, it's a github metric of which languages I have the most code on github.*
 
-<p align="center">
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=Ahmedomarpro&show_icons=true&gotham=en&layout=gotham&theme=gotham" alt="Ahmedomarpro" /></p>
-
-<img align="right " src="https://github-readme-stats.vercel.app/api?username=Ahmedomarpro&&show_icons=true&theme=gotham" alt="Ahmed Omar ">
-</p>  
+  
+## 🔎 Github Stats
+<p align = "center">
+  <img src = "https://github-readme-stats.vercel.app/api?username=Ahmedomarpro&show_icons=true&theme=aura&count_private=true&hide_border=true" width = 400>
+  <img src = "https://github-readme-streak-stats.herokuapp.com?user=Ahmedomarpro&theme=chartreuse-dark&hide_border=true" width = 400>
+  <img  src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ahmedomarpro&hide=javascript,blade,php,html,cmake,css,scss,assembly&theme=chartreuse-dark&langs_count=7&layout=compact&hide_border=true" width = 400>
+</p>
 
 <div align="center">
   <h3 align="center">Connect with me<img align="center" src="https://github.com/rajput2107/rajput2107/blob/master/Assets/Handshake.gif" height="33px" /></h3> 
@@ -165,3 +167,10 @@ and here
  
 
 _You can find the list of open source projects I have been a part of_ Usability TestingUsability TestingUsability TestingUsability TestingUsability TestingUsability TestingUsability TestingUsability Testing 👇👇👇👇👇👇👇
+
+
+
+
+
+ 
+
