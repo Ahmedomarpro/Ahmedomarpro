@@ -2233,3 +2233,10 @@ a.contact-card:hover {
 .project-label span { font-size:.8rem; text-transform:uppercase; letter-spacing:.1em; }
 .project-label strong { margin-top:12px; font-size:1.8rem; line-height:1.2; color:var(--heading-color); }
 @media(max-width:640px) { .profile-record-body {padding-left:0;} .profile-section .section-head {align-items:flex-start;gap:16px;flex-direction:column;} }
+
+.profile-jump-links { display:flex; flex-wrap:wrap; gap:10px 22px; margin:0 0 28px; font-weight:600; color:var(--primary-color); }
+.profile-record { scroll-margin-top:100px; }
+.profile-skill-list { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:10px 24px; list-style:disc; padding:18px 0 18px 20px; }
+.profile-skill-list li { overflow-wrap:anywhere; }
+@media(max-width:860px) { .profile-skill-list {grid-template-columns:repeat(2,minmax(0,1fr));} }
+@media(max-width:480px) { .profile-skill-list {grid-template-columns:1fr;} }

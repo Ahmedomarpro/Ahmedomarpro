@@ -355,3 +355,11 @@ window.addEventListener('resize', () => {
     clearTimeout(resizeTimer);
     resizeTimer = setTimeout(() => carousels.forEach(carousel => carousel.setup()), 150);
 });
+
+// Open a background section before navigating to it from its index.
+document.querySelectorAll('.profile-jump-links a').forEach(link => {
+    link.addEventListener('click', () => {
+        const section = document.getElementById(link.hash.slice(1));
+        if (section && section.tagName === 'DETAILS') section.open = true;
+    });
+});
