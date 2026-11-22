@@ -2215,3 +2215,21 @@ a.contact-card:hover {
     .hero-cta { margin-top: 16px; padding: 6px 4px; font-size: clamp(11px, .8vw, 15px); }
     .hero-scene::after { background: linear-gradient(to right, #f5f9ff 0%, rgba(245,249,255,.98) 37%, rgba(245,249,255,.7) 48%, transparent 65%), linear-gradient(to top, #fff 0%, transparent 5%); }
 }
+
+/* LinkedIn profile content follows the established portfolio typography. */
+.profile-section { background: #f8faff; }
+.profile-about { max-width: 850px; color: var(--text-secondary); margin-bottom: 32px; }
+.profile-about p + p { margin-top: 14px; }
+.profile-record { border-bottom: 1px solid var(--border-color); }
+.profile-record summary { padding: 20px 0; color: var(--heading-color); font-size: 1.05rem; font-weight: 700; cursor: pointer; }
+.profile-record summary:hover { color: var(--primary-color); }
+.profile-record-body { padding: 0 0 24px 20px; max-width: 900px; color: var(--text-secondary); }
+.profile-entry + .profile-entry { margin-top: 24px; }
+.profile-entry h4 { color: var(--heading-color); font-size: 1rem; margin-bottom: 5px; }
+.profile-entry p + p { margin-top: 4px; }
+.profile-list { list-style: disc; padding-left: 20px; }
+.profile-list li + li { margin-top: 8px; }
+.project-label { display:flex; flex-direction:column; align-items:flex-start; justify-content:center; padding:30px; background:var(--primary-soft); color:var(--primary-color); }
+.project-label span { font-size:.8rem; text-transform:uppercase; letter-spacing:.1em; }
+.project-label strong { margin-top:12px; font-size:1.8rem; line-height:1.2; color:var(--heading-color); }
+@media(max-width:640px) { .profile-record-body {padding-left:0;} .profile-section .section-head {align-items:flex-start;gap:16px;flex-direction:column;} }

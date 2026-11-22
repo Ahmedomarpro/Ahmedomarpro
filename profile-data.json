@@ -1,0 +1,453 @@
+{
+  "source": "https://www.linkedin.com/in/ahmedomarpro/",
+  "captured": "2026-11-22",
+  "experience": [
+    [
+      "Nami | نامي",
+      "Senior Software Engineer Team Lead",
+      "Jul 2026 – Present",
+      "Riyadh, Saudi Arabia · On-site",
+      [
+        "Lead MADA POS and NamiPay Android development using modular architecture.",
+        "Complete partner integrations and contribute to Automated Fuel Dispenser (AFD) integrations.",
+        "Implement application integrity checks; deliver merchant onboarding, activity logging, and support ticket workflows.",
+        "Improve performance and reliability across POS vendors; customize SDKs and support client integrations."
+      ]
+    ],
+    [
+      "Nami | نامي",
+      "POS Android Software Engineer",
+      "Mar 2025 – Jun 2026",
+      "Saudi Arabia · On-site",
+      [
+        "Developed NamiPay features for merchant onboarding, activity logging, and support tickets.",
+        "Enhanced MADA POS applications across multiple vendors and contributed to AFD integrations.",
+        "Implemented integrity checks and contributed to iOS security protections.",
+        "Integrated Firebase Analytics, Crashlytics, and Retrofit; customized SDKs for client POS integrations."
+      ]
+    ],
+    [
+      "Sanad Pay",
+      "POS Android Software Engineer",
+      "Nov 2024 – Mar 2025",
+      "Saudi Arabia · On-site",
+      [
+        "Developed modular MADA POS applications and delivered fixes across device vendors.",
+        "Developed and maintained SDKs and supported customer device integrations.",
+        "Coordinated POS development, certification initiatives, and payment processing.",
+        "Led SanadPay development across Morfine, dspread, and Android devices; reviewed code and mentored engineers."
+      ]
+    ],
+    [
+      "JobPlus | جوب بلس",
+      "Android Software Engineer",
+      "Jul 2023 – Sep 2024",
+      "Saudi Arabia · On-site",
+      [
+        "Developed JobPlus features connecting job seekers and employers.",
+        "Designed testing and deployment strategies using Kotlin, MVVM, Jetpack, coroutines, and REST APIs.",
+        "Used JUnit, Mockito, and Firebase Crashlytics to improve application reliability."
+      ]
+    ],
+    [
+      "Wothoq Technologies",
+      "Android Developer",
+      "Oct 2023 – Mar 2024",
+      "Saudi Arabia",
+      [
+        "Contributed to Android architecture using MVI, Hilt, and Room.",
+        "Improved reliability through unit testing and performance optimization."
+      ]
+    ],
+    [
+      "Wothoq Technologies",
+      "Android Software Engineer",
+      "May 2023 – Oct 2023",
+      "Saudi Arabia · Remote · Part-time",
+      [
+        "Developed an Android HR application for teacher attendance and departure tracking.",
+        "Built features with MVVM, Hilt, Room, Retrofit, and Kotlin coroutines.",
+        "Implemented XML interfaces, Data Binding, and build variants; used tests and Crashlytics."
+      ]
+    ],
+    [
+      "EXAS 2030",
+      "Android SWE Team Lead",
+      "Jun 2022 – Nov 2023",
+      "Saudi Arabia · Remote",
+      [
+        "Developed Android applications for client requirements and controlled rollouts using feature flags.",
+        "Implemented tamper detection, secure installation, cryptography, and encrypted storage with SafetyNet, DexGuard, and ThreatCast.",
+        "Contributed to technical vision and long-term Android strategy.",
+        "Used Kotlin, Jetpack, Hilt, JUnit, Mockito, Espresso, Bitrise, Retrofit, Firebase, and Datadog."
+      ]
+    ],
+    [
+      "qTech. (alqemam)",
+      "Software Engineer · Android",
+      "Mar 2022 – Sep 2022",
+      "Saudi Arabia · Part-time",
+      [
+        "Refactored mobile code for maintainability and added tests.",
+        "Worked with cross-functional teams on new product features.",
+        "Designed application testing and deployment strategies and provided technical business support."
+      ]
+    ],
+    [
+      "Uram IT-EG",
+      "Android SWE Team Lead",
+      "Jan 2021 – Jun 2022",
+      "Cairo, Egypt",
+      [
+        "Led and mentored the Android team and introduced Agile engineering processes.",
+        "Translated business requirements into technical tasks and coordinated with external teams and project managers.",
+        "Participated in hiring, technical design, technology selection, and architecture decisions.",
+        "Refactored applications using MVVM, MVI, Clean Architecture, and testable code."
+      ]
+    ],
+    [
+      "Uram IT-EG",
+      "Senior Android Engineer",
+      "Apr 2020 – Mar 2022",
+      "Riyadh, Saudi Arabia",
+      [
+        "Developed Android features and collaborated on server-side functionality.",
+        "Worked across the lifecycle from concept to deployment.",
+        "Maintained libraries and frameworks; optimized memory, speed, performance, and stability."
+      ]
+    ],
+    [
+      "QTech",
+      "Android Developer",
+      "Jan 2021 – Sep 2021",
+      "",
+      [
+        "Developed Tsaheel workflow automation using MVVM.",
+        "Contributed to the KAAU campus navigation application using ArcGIS and GPS.",
+        "Collaborated with backend and product teams on feature integration."
+      ]
+    ],
+    [
+      "UramIT",
+      "Android Developer",
+      "Feb 2018 – Dec 2020",
+      "",
+      [
+        "Built and optimized application architecture with Java, MVVM, Rx, and FCM.",
+        "Improved user satisfaction by 40% through UX improvements, as reported on LinkedIn.",
+        "Implemented unit tests, debugging, and performance optimization."
+      ]
+    ],
+    [
+      "Upwork",
+      "Senior Android Engineer",
+      "Jan 2019 – Oct 2020",
+      "Egypt · Part-time",
+      [
+        "Participated in hiring, technical design, technology selection, and architecture sessions.",
+        "Translated business requirements into technical solutions.",
+        "Refactored applications using MVVM, Clean Architecture, and testable code."
+      ]
+    ]
+  ],
+  "education": [
+    [
+      "Information Technology Institute (ITI)",
+      "Java Application and Mobile Application · Computer Science",
+      "Mar 2019 – Sep 2019",
+      "Training in Java, Android, web development, software engineering, data structures, UX/UI, Agile, and communication."
+    ],
+    [
+      "Advanced Academy",
+      "Bachelor’s · Computer and Information Sciences, General",
+      "Jan 2014 – Jun 2017",
+      "Grade: Very Good. Activities included software development, computer networks, Android, and web development."
+    ],
+    [
+      "Advanced Academy",
+      "B.Sc. in Management Information Systems (MIS)",
+      "",
+      "Graduation project: Scancode (A+), recognized for retail sector innovation. Listed separately on LinkedIn."
+    ]
+  ],
+  "languages": [
+    [
+      "Arabic",
+      "Native or bilingual proficiency"
+    ],
+    [
+      "English",
+      "Full professional proficiency"
+    ],
+    [
+      "Deutsch",
+      "Limited working proficiency"
+    ]
+  ],
+  "services": [
+    "Mobile Application Development",
+    "Android Development",
+    "Custom Software Development",
+    "Career Development Coaching",
+    "Interview Preparation",
+    "Leadership Development",
+    "Resume Review",
+    "Public Speaking",
+    "Resume Writing",
+    "Team Building"
+  ],
+  "projects": [
+    [
+      "JobPlus",
+      "android",
+      "Recruitment",
+      "A mobile platform connecting job seekers with job providers, supporting people looking for a new or additional job.",
+      [
+        "Kotlin",
+        "MVVM",
+        "Jetpack",
+        "REST APIs"
+      ],
+      "Jul 2023 – Present",
+      "JobPlus | جوب بلس"
+    ],
+    [
+      "ALKhalil Employee",
+      "android",
+      "Business Tools",
+      "An employee application for Al Khalil Technical Support Services, built with native Android technologies.",
+      [
+        "Java",
+        "MVVM",
+        "Firebase",
+        "RxJava"
+      ],
+      "Sep 2020 – Present",
+      "Uram IT-EG"
+    ],
+    [
+      "Alkhalil Clients",
+      "android",
+      "Business Tools",
+      "The Al Khalil client application for technical support services and customer workflows.",
+      [
+        "Java",
+        "Data Binding",
+        "FCM",
+        "Android Architecture Components"
+      ],
+      "Sep 2020 – Present",
+      "Uram IT-EG"
+    ],
+    [
+      "World News Newspaper",
+      "android",
+      "News",
+      "A news application that brings multiple international sources into one place.",
+      [
+        "Android",
+        "News Aggregation"
+      ],
+      "Jan 2019 – Mar 2019",
+      "Freelancer.com"
+    ],
+    [
+      "scan_code App",
+      "android",
+      "Barcode Scanning",
+      "Scans 1D and 2D barcodes for price comparisons and actions such as opening URLs and saving contacts.",
+      [
+        "Android",
+        "QR Codes",
+        "Barcodes"
+      ],
+      "",
+      "Advanced Academy"
+    ]
+  ],
+  "skills": [
+    "Android Development",
+    "Kotlin",
+    "Java",
+    "Jetpack Compose",
+    "Android SDK",
+    "AOSP",
+    "Clean Architecture",
+    "Modular Architecture",
+    "MVVM",
+    "MVI",
+    "Kotlin Coroutines",
+    "Kotlin Flow",
+    "Hilt",
+    "Room",
+    "Retrofit",
+    "RxJava",
+    "Firebase",
+    "Crashlytics",
+    "FCM",
+    "REST APIs",
+    "SOAP",
+    "SoftPOS",
+    "Point of Sale (POS) Systems",
+    "EMV",
+    "ISO 8583",
+    "MADA Integration",
+    "Nexo ISO 20022",
+    "App-to-App Integration",
+    "TEMS 2",
+    "SDK Integration",
+    "Application Security",
+    "MobSF",
+    "DexGuard",
+    "ThreatCast",
+    "SafetyNet",
+    "Cryptography",
+    "Encrypted Storage",
+    "JUnit",
+    "Mockito",
+    "Espresso",
+    "Test Suites",
+    "Bitrise",
+    "Datadog",
+    "Git",
+    "Android Studio",
+    "Data Binding",
+    "XML",
+    "Agile Methodologies",
+    "Team Leadership",
+    "Mentoring",
+    "Project Documentation",
+    "Object-Oriented Programming",
+    "Concurrent Programming",
+    "Strategic Development",
+    "High Performance Computing",
+    "UiPath",
+    "Injection Molding",
+    "SSE",
+    "App Store",
+    "Microsoft Office"
+  ],
+  "capturedCertifications": [
+    [
+      "ChatGPT Prompt Engineering for Developers",
+      "DeepLearning.AI",
+      "Sep 2024 · Profile lists expiration Sep 2024"
+    ],
+    [
+      "Kotlin Coroutines and Flow for Android Development",
+      "Udemy",
+      "Jul 2024 · Profile lists expiration Sep 2024"
+    ],
+    [
+      "Android App Security: A Structured Approach to Pen Testing MobSF",
+      "LinkedIn",
+      "Jul 2024"
+    ],
+    [
+      "EMV Module: A beginner’s guide to chip card transactions",
+      "Udemy",
+      "Nov 2023 · Expires Nov 2033"
+    ],
+    [
+      "English To Get A Job",
+      "almentor",
+      "Jun 2020"
+    ],
+    [
+      "Due Rank global code quality ranking",
+      "Due Rank",
+      ""
+    ],
+    [
+      "Penetration Testing Android",
+      "Udemy",
+      "Oct 2019 · Duplicate entries consolidated"
+    ],
+    [
+      "Android Development (Diploma)",
+      "Route",
+      "Aug 2019"
+    ],
+    [
+      "Java Development SE (ITI Diploma)",
+      "Information Technology Institute (ITI)",
+      "Aug 2019"
+    ],
+    [
+      "Microsoft Virtual Academy",
+      "Microsoft",
+      "Aug 2016"
+    ],
+    [
+      "Code.og",
+      "CodeAI",
+      "Aug 2017"
+    ],
+    [
+      "Developing web Apps using PHP & MySql",
+      "7Dash",
+      "Mar 2016"
+    ],
+    [
+      "تعلم اسرار إدارة الوقت و ضاعف قدرتك لإنجاز الأعمال عشر مرات",
+      "Udemy",
+      ""
+    ],
+    [
+      "Object Oriented Programming using Java",
+      "Udemy",
+      ""
+    ],
+    [
+      "Android: App using SMS and SQLite",
+      "Udemy",
+      "Jan 2019"
+    ],
+    [
+      "مهارات ادارة الوقت",
+      "Udemy",
+      ""
+    ]
+  ],
+  "capturedCourses": [
+    "Coding and handling clusters",
+    "Data Structures and Algorithms",
+    "Java SE",
+    "Mobile Application Development for J2ME",
+    "Simulation & Modeling",
+    "Web Based Application Development",
+    "Android: UI, User Input, Multi Screen, Networking, Databases — Udacity",
+    "Big Data Fundamentals — Teradata",
+    "Database",
+    "Logic Design",
+    "Software Engineering",
+    "Unit Testing",
+    "Advanced Android Development",
+    "Agile Software Engineering — ITI",
+    "Android: App using SMS and SQLite",
+    "Android Design",
+    "Android Development",
+    "Android Google Nanodegree",
+    "Android with Retrofit 2: Integrating JSON RESTful APIs",
+    "Computer Architecture",
+    "Computer Engineering (2)",
+    "Developing Android Apps — Udacity",
+    "EMV Module 1: A beginner’s guide to chip card transactions",
+    "Electrical Signal Analysis",
+    "Java and Kotlin",
+    "Kernel Debugging",
+    "Mechanical Engineering (2)",
+    "Mechanical Engineering (1)",
+    "Microprocessors",
+    "Mobile Communication Systems",
+    "Object Oriented Programming using Java",
+    "Operating System",
+    "PHP and MySql basic concepts",
+    "R8.ProGuard",
+    "Software Design Patterns",
+    "Time management skills",
+    "ChatGPT Prompt Engineering for Developers",
+    "SOLID principles in Java"
+  ],
+  "coverage": "Full captured career history, education, five LinkedIn projects, languages, organizations, volunteering, publications, and all 17 certification entries and 39 course entries (duplicates consolidated). Selected skills are supported by profile and career records, with a link to the full LinkedIn skill list."
+}
