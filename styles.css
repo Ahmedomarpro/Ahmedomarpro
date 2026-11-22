@@ -2191,3 +2191,27 @@ a.contact-card:hover {
     .hero-stats li:first-child { padding-left: 0; border-right: 1px solid var(--border-color); }
     .hero-cta { margin-top: 22px; }
 }
+
+/* Reference hero proportions: a compact text column with an open outer margin. */
+@media (min-width: 1025px) {
+    .hero { min-height: clamp(460px, 33.3vw, 635px); }
+    .hero .hero-inner {
+        max-width: min(1160px, 64vw);
+        padding: 32px 0 34px;
+    }
+    .hero-text { max-width: min(590px, 34vw); }
+    .hero-greeting { font-size: clamp(.75rem, .8vw, .95rem); padding: 5px 12px; margin-bottom: 12px; }
+    .hero-name { font-size: clamp(40px, 3.2vw, 60px); }
+    .hero-title { font-size: min(1.5rem, 3.9cqw); margin-top: 5px; }
+    .hero-description { font-size: clamp(13px, .9vw, 17px); line-height: 1.6; margin-top: 16px; max-width: 520px; }
+    .hero-platforms { margin-top: 16px; gap: 7px; }
+    .hero-platforms li { font-size: clamp(10px, .7vw, 13px); padding: 3px 9px; }
+    .hero-buttons { margin-top: 24px; gap: 12px; }
+    .hero-buttons .btn { min-height: 36px; padding: 9px 16px; font-size: clamp(11px, .8vw, 15px); }
+    .hero-stats { margin-top: 28px; }
+    .hero-stats strong { font-size: clamp(17px, 1.2vw, 23px); }
+    .hero-stats li { font-size: clamp(10px, .72vw, 13px); padding: 0 14px; }
+    .hero-stats li:first-child { padding-left: 0; }
+    .hero-cta { margin-top: 16px; padding: 6px 4px; font-size: clamp(11px, .8vw, 15px); }
+    .hero-scene::after { background: linear-gradient(to right, #f5f9ff 0%, rgba(245,249,255,.98) 37%, rgba(245,249,255,.7) 48%, transparent 65%), linear-gradient(to top, #fff 0%, transparent 5%); }
+}
