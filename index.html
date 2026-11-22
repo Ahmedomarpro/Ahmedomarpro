@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahmed Omar — Flutter &amp; Android Developer</title>
+    <meta name="description" content="Ahmed Omar — mobile development with Flutter, Kotlin and Jetpack Compose, focused on merchant and support applications.">
+    <link rel="stylesheet" href="styles.css?v=20261122-hero-order">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <header class="navbar">
+        <nav class="container nav-inner" aria-label="Main">
+            <a href="#home" class="nav-brand">
+                <span class="nav-logo">AO</span>
+                <span class="nav-name">Ahmed Omar</span>
+            </a>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <a href="https://github.com/Ahmedomarpro" target="_blank" rel="noopener" class="btn btn-primary btn-cv">Visit GitHub</a>
+            <button type="button" class="hamburger" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="nav-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <span id="about" class="legacy-anchor"></span>
+            <div class="hero-scene">
+                <div class="hero-scene-inner">
+                    <img src="ahmed-hero.jpg" alt="Ahmed Omar in a warm workplace setting" class="hero-composite" width="1915" height="821">
+                </div>
+            </div>
+            <div class="container hero-inner">
+                <div class="hero-text">
+                    <div class="hero-avatar">
+                        <img src="ahmed-portrait.png" alt="Ahmed Omar" width="208" height="228">
+                    </div>
+                    <p class="hero-greeting"><span aria-hidden="true">👋</span> Hello, I'm</p>
+                    <h1 class="hero-name">Ahmed Omar</h1>
+                    <p class="hero-title"><span>MOBILE DEVELOPER</span> | ANDROID &amp; FLUTTER</p>
+                    <p class="hero-description">I build mobile experiences with Flutter and native Android, with a focus on merchant applications, support workflows, and practical business tools.</p>
+                    <ul class="hero-platforms" aria-label="Focus areas"><li>Flutter</li><li>Android</li><li>Merchant Apps</li><li>API Integration</li></ul>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">
+                            View My Projects
+                            <span aria-hidden="true">&rarr;</span>
+                        </a>
+                        <a href="#contact" class="btn btn-outline">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                <polyline points="22,6 12,13 2,6"></polyline>
+                            </svg>
+                            Contact Me
+                        </a>
+                    </div>
+                    <ul class="hero-stats"><li><span><strong>2</strong> Featured Projects</span></li><li><span><strong>2</strong> Mobile Technology Stacks</span></li></ul>
+                    <a href="#contact" class="hero-cta">
+                        <span class="hero-cta-lead"><span aria-hidden="true">🚀</span> <strong>Have an idea?</strong></span>
+                        <span class="hero-cta-highlight">Let’s build it together.<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Selected Work Section -->
+        <section id="projects" class="section">
+            <div class="container">
+                <div class="section-head section-head-projects">
+                    <div>
+                        <p class="eyebrow">Featured Projects</p>
+                        <h2 class="section-title">Selected Work</h2>
+                    </div>
+                    <div class="filters" role="group" aria-label="Filter projects by platform"><button type="button" class="filter is-active" data-filter="all" aria-pressed="true">All Projects</button><button type="button" class="filter" data-filter="flutter" aria-pressed="false">Flutter</button><button type="button" class="filter" data-filter="android" aria-pressed="false">Native Android</button></div>
+                </div>
+
+                <div class="carousel">
+                <button type="button" class="carousel-arrow" id="projects-prev" aria-label="Previous projects">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="15 18 9 12 15 6"></polyline></svg>
+                </button>
+                <div class="project-grid" id="projects-track" tabindex="0" aria-label="Selected projects, scrollable"><article class="project-card" data-category="flutter"><div class="project-media personal-project-media"><img src="merchant-app.jpg" alt="Merchant application icon" width="192" height="192" loading="lazy"></div><div class="project-body"><div class="project-title"><h3>Merchant App</h3></div><p class="project-role">Cross-platform Mobile</p><p>A Flutter merchant application with API integration, maps, notifications, and mobile authentication.</p><ul class="tags"><li>Flutter</li><li>Dart</li><li>BLoC</li><li>Firebase</li></ul><div class="project-footer"><button type="button" class="details-link" data-details="details-merchant" aria-haspopup="dialog" aria-label="View details for Merchant App">View Details <span aria-hidden="true">&rarr;</span></button><span class="industry-badge">Flutter</span></div></div></article><article class="project-card" data-category="android"><div class="project-media personal-project-media"><img src="support-app.webp" alt="Support application icon" width="192" height="192" loading="lazy"></div><div class="project-body"><div class="project-title"><h3>Support App</h3></div><p class="project-role">Native Android</p><p>A native Android support application covering merchant onboarding, support tickets, and field-service workflows.</p><ul class="tags"><li>Kotlin</li><li>Jetpack Compose</li><li>Hilt</li><li>Retrofit</li></ul><div class="project-footer"><button type="button" class="details-link" data-details="details-support" aria-haspopup="dialog" aria-label="View details for Support App">View Details <span aria-hidden="true">&rarr;</span></button><span class="industry-badge">Android</span></div></div></article>
+                </div>
+                <button type="button" class="carousel-arrow" id="projects-next" aria-label="Next projects">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                </button>
+                </div>
+                <p class="carousel-count" id="projects-count" aria-live="polite"></p>
+            </div>
+        </section>
+
+        <!-- Key Skills Section -->
+        <section id="skills" class="section">
+            <div class="container">
+                <div class="section-head">
+                    <div>
+                        <p class="eyebrow">Key Skills</p>
+                        <h2 class="section-title">My Main Technologies</h2>
+                    </div>
+                </div>
+                <div class="carousel">
+                    <button type="button" class="carousel-arrow" id="skills-prev" aria-label="Previous technologies">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="15 18 9 12 15 6"></polyline></svg>
+                    </button>
+                    <ul class="carousel-track" id="skills-track" tabindex="0" aria-label="Main technologies, scrollable">
+                        <li class="skill-card"><img src="android.svg" alt="" width="64" height="64"><span>Android</span></li>
+                        <li class="skill-card"><img src="flutter.svg" alt="" width="64" height="64"><span>Flutter</span></li>
+                        
+                        
+                        
+                        
+                        <li class="skill-card"><img src="kotlin.svg" alt="" width="64" height="64"><span>Kotlin</span></li>
+                        <li class="skill-card"><img src="dart.svg" alt="" width="64" height="64"><span>Dart</span></li>
+                        
+                        
+                        <li class="skill-card"><img src="firebase.svg" alt="" width="64" height="64"><span>Firebase</span></li>
+                        
+                        
+                    </ul>
+                    <button type="button" class="carousel-arrow" id="skills-next" aria-label="Next technologies">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                    </button>
+                </div>
+                <p class="carousel-count" id="skills-count" aria-live="polite"></p>
+
+                <article class="exploring" aria-labelledby="exploring-title"><div class="exploring-intro"><p class="exploring-label">Development Focus</p><h3 id="exploring-title">Practical mobile architecture</h3></div><p class="exploring-description">Cross-platform development with Flutter and BLoC, alongside native Android interfaces built with Kotlin and Jetpack Compose.</p><ul class="exploring-tags"><li>State Management</li><li>API Integration</li><li>Dependency Injection</li><li>Firebase</li></ul></article>
+            </div>
+        </section>
+
+        <!-- My Development Focus Section -->
+        <section id="experience" class="section">
+            <div class="container">
+                <div class="section-head">
+                    <div>
+                        <p class="eyebrow">Technical Experience</p>
+                        <h2 class="section-title">My Development Focus</h2>
+                    </div>
+                </div>
+
+                <div class="carousel">
+                <button type="button" class="carousel-arrow" id="experience-prev" aria-label="Previous experience">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="15 18 9 12 15 6"></polyline></svg>
+                </button>
+                <ol class="timeline" id="experience-track" tabindex="0" aria-label="Technical experience, scrollable"><li class="timeline-item"><article class="timeline-card"><h3>Merchant App</h3><p class="timeline-location">Cross-platform Mobile</p><p class="timeline-role">Flutter &amp; Dart</p><p>A Flutter merchant application with API integration, maps, notifications, and mobile authentication.</p><button type="button" class="details-link" data-details="details-merchant" aria-haspopup="dialog" aria-label="Show details for Merchant App">Show Details <span aria-hidden="true">&rarr;</span></button></article><p class="timeline-date">Project experience</p></li><li class="timeline-item"><article class="timeline-card"><h3>Support App</h3><p class="timeline-location">Native Android</p><p class="timeline-role">Kotlin &amp; Jetpack Compose</p><p>A native Android support application covering merchant onboarding, support tickets, and field-service workflows.</p><button type="button" class="details-link" data-details="details-support" aria-haspopup="dialog" aria-label="Show details for Support App">Show Details <span aria-hidden="true">&rarr;</span></button></article><p class="timeline-date">Project experience</p></li></ol>
+                <button type="button" class="carousel-arrow" id="experience-next" aria-label="Next experience">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                </button>
+                </div>
+                <p class="carousel-count" id="experience-count" aria-live="polite"></p>
+                <p class="details-more"><button type="button" class="details-link" data-details="details-more" aria-haspopup="dialog">About My Work <span aria-hidden="true">&rarr;</span></button></p>
+
+                <!-- Content for the details popup; script.js copies the matching card into it -->
+                <div id="experience-details" hidden>
+<article class="detail-card" id="details-merchant"><h3>Merchant App</h3><p class="detail-meta">Flutter · Dart · BLoC</p><ul><li>Cross-platform merchant application using Flutter and BLoC state management.</li><li>API integration using Dio, with Firebase services for notifications and analytics.</li><li>Mobile capabilities include maps, device authentication, and document handling.</li></ul></article>
+<article class="detail-card" id="details-support"><h3>Support App</h3><p class="detail-meta">Kotlin · Jetpack Compose · Hilt</p><ul><li>Native Android interfaces built with Kotlin and Jetpack Compose.</li><li>Hilt dependency injection and Retrofit-based API integration.</li><li>Workflows cover merchant onboarding, support tickets, and document capture.</li></ul></article>
+<div id="details-more" data-title="About My Work"><article class="detail-card"><h3>Ahmed Omar</h3><p>My current project work spans Flutter merchant experiences and native Android support tools. My technical focus includes mobile interfaces, state management, API integration, and practical business workflows.</p><p>Find me on GitHub as Ahmedomarpro.</p></article></div>
+</div></div></section>
+
+<!-- The dialog fills the screen; the scrim and panel inside it are what animate -->
+        <dialog class="details-dialog" id="details-dialog" aria-labelledby="details-title">
+            <div class="details-scrim" aria-hidden="true"></div>
+            <div class="details-panel" id="details-panel">
+                <div class="details-head">
+                    <span class="details-grabber" aria-hidden="true"></span>
+                    <div class="details-heading">
+                        <h2 id="details-title"></h2>
+                        <p class="details-subtitle" id="details-subtitle"></p>
+                    </div>
+                    <button type="button" class="details-close" id="details-close" aria-label="Close details" autofocus>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                    </button>
+                </div>
+                <div class="details-body" id="details-body"></div>
+            </div>
+        </dialog>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section section-contact">
+            <span id="resume" class="legacy-anchor"></span>
+            <span id="hire" class="legacy-anchor"></span>
+            <div class="container contact-inner">
+                <div class="contact-intro">
+                    <p class="eyebrow">Let's Connect</p>
+                    <h2 class="section-title">Get In Touch</h2>
+                    <p>You can find my developer profile and connect with me on GitHub.</p>
+                </div>
+                <ul class="contact-cards"><li><a href="https://github.com/Ahmedomarpro" target="_blank" rel="noopener" class="contact-card"><span><strong>GitHub</strong><span class="contact-value">Ahmedomarpro &rarr;</span></span></a></li></ul>
+                <div class="social-links">
+                    
+                    <a href="https://github.com/Ahmedomarpro" target="_blank" rel="noopener" class="social-link" aria-label="GitHub">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Ahmed Omar. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp button: same number as the Phone contact card, in international format without + -->
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
