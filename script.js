@@ -373,3 +373,25 @@ projectsExpand?.addEventListener('click', () => {
     document.getElementById('projects').classList.toggle('projects-expanded', expanded);
     if (!expanded) projectCarousel.setup();
 });
+
+// Persist explicit preference; otherwise follow changes to the system theme.
+const themeToggle = document.getElementById('theme-toggle');
+const systemTheme = window.matchMedia('(prefers-color-scheme: dark)');
+function setPortfolioTheme(theme) {
+    document.documentElement.dataset.theme = theme;
+    const dark = theme === 'dark';
+    themeToggle?.setAttribute('aria-pressed', String(dark));
+    themeToggle?.setAttribute('aria-label', dark ? 'Switch to light mode' : 'Switch to dark mode');
+    if (themeToggle) themeToggle.querySelector('.theme-label').textContent = dark ? 'Light' : 'Dark';
+}
+setPortfolioTheme(document.documentElement.dataset.theme || (systemTheme.matches ? 'dark' : 'light'));
+themeToggle?.addEventListener('click', () => {
+    const theme = document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark';
+    setPortfolioTheme(theme);
+    try { localStorage.setItem('portfolio-theme', theme); } catch { /* Storage is optional. */ }
+});
+systemTheme.addEventListener('change', event => {
+    let saved = null;
+    try { saved = localStorage.getItem('portfolio-theme'); } catch { /* Use system preference. */ }
+    if (saved !== 'light' && saved !== 'dark') setPortfolioTheme(event.matches ? 'dark' : 'light');
+});

@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta name="color-scheme" content="light dark">
+    <script>try{const saved=localStorage.getItem('portfolio-theme');document.documentElement.dataset.theme=saved==='dark'||saved==='light'?saved:(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light')}catch{document.documentElement.dataset.theme=matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'}</script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ahmed Omar — AI Engineer &amp; Mobile Applications Team Lead</title>
     <meta name="description" content="Ahmed Omar, AI Engineer, Software Engineer and Mobile Applications Team Lead in Riyadh, specializing in FinTech, POS payments, Kotlin, Jetpack Compose, AOSP, EMV, ISO 8583, and MADA integration.">
-    <link rel="stylesheet" href="styles.css?v=20261124-clarity">
+    <link rel="stylesheet" href="styles.css?v=20261124-theme">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -28,6 +30,7 @@
                 <li><a href="#contact">Contact</a></li>
             </ul>
             <a href="https://github.com/Ahmedomarpro" target="_blank" rel="noopener" class="btn btn-primary btn-cv">Visit GitHub</a>
+            <button type="button" id="theme-toggle" class="theme-toggle" aria-label="Switch to dark mode" aria-pressed="false"><span class="theme-moon" aria-hidden="true">☾</span><span class="theme-sun" aria-hidden="true">☀</span><span class="theme-label">Dark</span></button>
             <button type="button" class="hamburger" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="nav-menu">
                 <span></span>
                 <span></span>
@@ -221,6 +224,6 @@
     <!-- Floating WhatsApp button: same number as the Phone contact card, in international format without + -->
     
 
-    <script src="script.js"></script>
+    <script src="script.js?v=20261124-theme"></script>
 </body>
 </html>
