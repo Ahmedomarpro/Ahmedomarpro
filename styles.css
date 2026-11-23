@@ -2240,3 +2240,25 @@ a.contact-card:hover {
 .profile-skill-list li { overflow-wrap:anywhere; }
 @media(max-width:860px) { .profile-skill-list {grid-template-columns:repeat(2,minmax(0,1fr));} }
 @media(max-width:480px) { .profile-skill-list {grid-template-columns:1fr;} }
+
+.hero-title { white-space: normal; text-wrap: balance; }
+.hero-position { margin-top: 7px; font-size: .9rem; font-weight: 600; color: var(--text-secondary); }
+.mada-project { background: #fff; }
+.mada-project img { width: 180px; height: 90px; border-radius: 0; box-shadow: none; }
+.project-footer { gap: 10px; flex-wrap: wrap; }
+
+.hero-current { display:inline-block; margin-top:12px; color:var(--heading-color); font-size:clamp(.75rem,.83vw,.95rem); line-height:1.5; }
+.hero-current strong { color:var(--primary-color); }
+.hero-current span { display:block; color:var(--text-secondary); font-size:.9em; }
+.projects-browse { display:flex; justify-content:space-between; align-items:center; gap:24px; margin-top:22px; color:var(--text-secondary); }
+.projects-browse p { max-width:650px; }
+.projects-browse .btn { flex-shrink:0; }
+.projects-expanded .project-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); overflow:visible; scroll-snap-type:none; }
+.projects-expanded .project-card { width:auto; min-width:0; }
+.projects-expanded #projects-prev,.projects-expanded #projects-next,.projects-expanded #projects-count { display:none; }
+.project-card[hidden] { display:none!important; }
+.profile-impact { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); max-width:650px; gap:24px; margin-bottom:28px; }
+.profile-impact strong { display:block; color:var(--primary-color); font-size:2rem; line-height:1.2; }
+.profile-impact span { color:var(--text-secondary); font-size:.9rem; }
+@media(max-width:1024px) { .projects-expanded .project-grid {grid-template-columns:repeat(2,minmax(0,1fr));} }
+@media(max-width:640px) { .projects-browse {align-items:flex-start;flex-direction:column;} .projects-expanded .project-grid {grid-template-columns:1fr;} .hero-current {font-size:.82rem;} }

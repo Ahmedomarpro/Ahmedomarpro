@@ -159,7 +159,7 @@ filterButtons.forEach(button => {
         projectAnchors[projectFilter] = projectCarousel.anchor();
         projectFilter = button.dataset.filter;
         projectCards.forEach(card => {
-            card.hidden = projectFilter !== 'all' && card.dataset.category !== projectFilter;
+            card.hidden = projectFilter !== 'all' && !card.dataset.category.split(/\s+/).includes(projectFilter);
         });
         projectCarousel.setup(projectAnchors[projectFilter] || 0);
         // On mobile the chip may be partly off-screen in the scrolling row
@@ -362,4 +362,14 @@ document.querySelectorAll('.profile-jump-links a').forEach(link => {
         const section = document.getElementById(link.hash.slice(1));
         if (section && section.tagName === 'DETAILS') section.open = true;
     });
+});
+
+// Let visitors scan the whole portfolio or return to the compact carousel.
+const projectsExpand = document.getElementById('projects-expand');
+projectsExpand?.addEventListener('click', () => {
+    const expanded = projectsExpand.getAttribute('aria-expanded') !== 'true';
+    projectsExpand.setAttribute('aria-expanded', String(expanded));
+    projectsExpand.textContent = expanded ? 'Return to project carousel' : 'Browse all 20 projects';
+    document.getElementById('projects').classList.toggle('projects-expanded', expanded);
+    if (!expanded) projectCarousel.setup();
 });

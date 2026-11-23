@@ -551,5 +551,153 @@
     "Kernel Debugging",
     "Android Design"
   ],
-  "skillsRechecked": "2026-11-23"
+  "skillsRechecked": "2026-11-23",
+  "requestedProfessionalTitle": "AI Engineer & Mobile Applications Team Lead | Software Engineer",
+  "additionalProjectContributions": [
+    {
+      "name": "MADA POS Applications",
+      "organization": "Nami · Sanad Pay",
+      "domain": "FinTech & Payments",
+      "description": "Development and enhancement of MADA POS applications across payment-device vendors, including partner integration, reliability, SDK customization, integrity checks, and payment transaction workflows.",
+      "technologies": [
+        "Android",
+        "MADA",
+        "Modular Architecture",
+        "SDK Integration"
+      ]
+    },
+    {
+      "name": "NamiPay",
+      "organization": "Nami",
+      "domain": "FinTech & Payments",
+      "description": "Android POS and merchant workflows covering merchant onboarding, activity logging, support tickets, device integrations, and application reliability.",
+      "technologies": [
+        "Android",
+        "POS",
+        "Firebase",
+        "Retrofit"
+      ]
+    },
+    {
+      "name": "Automated Fuel Dispenser (AFD) Integrations",
+      "organization": "Nami",
+      "domain": "Payment Integrations",
+      "description": "Contributed to Automated Fuel Dispenser integrations and partner-company payment integrations as part of the Nami POS engineering work.",
+      "technologies": [
+        "AFD",
+        "Payment Integration",
+        "Android"
+      ]
+    },
+    {
+      "name": "SanadPay POS",
+      "organization": "Sanad Pay",
+      "domain": "FinTech & Payments",
+      "description": "Led end-to-end POS development across Morfine, dspread, and Android devices; maintained SDKs, supported integrations, and contributed to certification and payment-processing initiatives.",
+      "technologies": [
+        "Android",
+        "POS Devices",
+        "SDKs",
+        "Payment Processing"
+      ]
+    },
+    {
+      "name": "Teacher Attendance & HR App",
+      "organization": "Wothoq Technologies",
+      "domain": "HR & Operations",
+      "description": "Developed an Android HR application to track teacher attendance and departure, using MVVM, Hilt, Room, Retrofit, Kotlin coroutines, XML, and Data Binding.",
+      "technologies": [
+        "Kotlin",
+        "MVVM",
+        "Hilt",
+        "Room"
+      ]
+    },
+    {
+      "name": "Tsaheel",
+      "organization": "QTech",
+      "domain": "Workflow Automation",
+      "description": "Developed workflow automation features using MVVM and collaborated with backend and product teams on integrations.",
+      "technologies": [
+        "Android",
+        "MVVM",
+        "Workflow Automation"
+      ]
+    },
+    {
+      "name": "KAAU Campus Navigation",
+      "organization": "QTech",
+      "domain": "Maps & Navigation",
+      "description": "Contributed to a campus guidance application using ArcGIS and GPS for location-based navigation.",
+      "technologies": [
+        "Android",
+        "ArcGIS",
+        "GPS"
+      ]
+    },
+    {
+      "name": "Unaizah Quran Memorization App",
+      "organization": "EXAS 2030",
+      "domain": "Education",
+      "description": "An application included in the EXAS 2030 experience on LinkedIn, supporting remote Quran teaching, memorization curricula, and learning-circle management.",
+      "technologies": [
+        "Android",
+        "Education",
+        "Remote Learning"
+      ]
+    },
+    {
+      "name": "OSOL Customers",
+      "organization": "EXAS 2030",
+      "domain": "Customer Services",
+      "description": "Customer application listed with the EXAS 2030 work, supporting the services of Osul Al Motamayez for design, building, and technical support.",
+      "technologies": [
+        "Android",
+        "Customer Services"
+      ]
+    },
+    {
+      "name": "Osul Employees",
+      "organization": "EXAS 2030",
+      "domain": "Business Operations",
+      "description": "Employee application listed in the EXAS 2030 project media, supporting business and technical-service workflows.",
+      "technologies": [
+        "Android",
+        "Business Workflows"
+      ]
+    },
+    {
+      "name": "Amartick Suppliers",
+      "organization": "Uram IT-EG",
+      "domain": "Commerce & Delivery",
+      "description": "Supplier application for receiving and confirming customer orders, coordinating delivery dates, and managing delivery-date changes with customer approval.",
+      "technologies": [
+        "Android",
+        "Order Management",
+        "Delivery"
+      ]
+    },
+    {
+      "name": "Amartick",
+      "organization": "Uram IT-EG",
+      "domain": "Commerce & Delivery",
+      "description": "An ordering and delivery application featured in the Uram IT-EG experience on LinkedIn.",
+      "technologies": [
+        "Android",
+        "Commerce",
+        "Delivery"
+      ]
+    },
+    {
+      "name": "Restaurant Management System",
+      "organization": "Uram IT-EG",
+      "domain": "Hospitality",
+      "description": "A management system for restaurants, cafés, and hotels, featured in the Uram IT-EG experience and designed to support day-to-day operations.",
+      "technologies": [
+        "Android",
+        "Restaurants",
+        "Operations"
+      ]
+    }
+  ]
 }
